@@ -66,9 +66,9 @@ const PasskeyModal = () => {
             const encryptedKey = encryptKey(passkey);
             localStorage.setItem("accessKey", encryptedKey);
             setOpen(false);
-
         }
         else {
+            localStorage.removeItem("accessKey");
             setError("Invalid passkey. Please try again")
         }
     }

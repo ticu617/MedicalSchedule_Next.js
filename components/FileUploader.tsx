@@ -24,7 +24,7 @@ type FileUploaderProps = {
             <input {...getInputProps()} />
             {files && files?.length > 0 ? (
                 <Image src={convertFileToURL(files[0])} height={1000} width={1000}
-                alt="uploaded document" className="max-h-[400px] overflow-hidden object-cover"></Image>
+                alt="uploaded image" className="max-h-[400px] overflow-hidden object-cover"></Image>
             ) : <>
             <Image
             src="/assets/icons/upload.svg"
