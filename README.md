@@ -35,7 +35,7 @@
    <img src="https://github.com/user-attachments/assets/9c505804-daee-496c-91f8-7503c24baa5b" alt="Admin dashboard">
  
   <br />
-
+</div>
 
 ## <a name="introduction">🤖 Introduction</a>
 
